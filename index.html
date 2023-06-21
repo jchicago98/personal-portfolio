@@ -28,6 +28,20 @@
                 font-size: 3.5rem;
             }
         }
+
+        .img-small {
+            height: 400px;
+        }
+
+        .logos-row {
+            margin-top: 20px;
+        }
+
+        .logo {
+            width: 60px;
+            height: 60px;
+            margin-right: 60px;
+        }
     </style>
 
 
@@ -41,16 +55,16 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4 class="text-white">About</h4>
-                        <p class="text-bg-dark p-3">Add some information about the album below, the author, or any other
-                            background context. Make it a few sentences long so folks can pick up some informative
-                            tidbits. Then, link them off to some social networking sites or contact information.</p>
+                        <p class="text-bg-dark p-3">Experienced in full stack software development, adept at working in
+                            an agile environment using Angular, Spring Boot, and Jenkins CI/CD. Skilled in writing tests
+                            for software quality and reliability to ensure efficient software delivery for clients.</p>
                     </div>
                     <div class="col-sm-4 offset-md-1 py-4">
                         <h4 class="text-white">Contact</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                            <li><a href="#" class="text-white">Like on Facebook</a></li>
-                            <li><a href="#" class="text-white">Email me</a></li>
+                            <li><a href="https://github.com/jchicago98" class="text-white">Github</a></li>
+                            <li><a href="https://www.linkedin.com/in/jorge-morin/" class="text-white">LinkedIn</a></li>
+                            <li><a href="mailto:jmorin799@gmail.com" class="text-white">Email me</a></li>
                         </ul>
                     </div>
                 </div>
@@ -73,18 +87,34 @@
 
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
-                <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Album example</h1>
-                    <p class="lead text-muted">Something short and leading about the collection below—its contents, the
-                        creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                        entirely.</p>
-                    <p>
-                        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-                    </p>
+              <div class="col-lg-6 col-md-8 mx-auto">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h1 class="fw-light">Jorge Morin</h1>
+                    <p class="lead text-muted">Multi-faceted Engineer with 3+ years of experience in Mechanical/Plumbing
+                      Engineering and Full Stack Software Development. Thrives in the software development world,
+                      passionate about solving complex problems through coding and collaborating with diverse teams to
+                      deliver successful projects.</p>
+                  </div>
+                  <div class="col-lg-6">
+                    <img class="img-fluid rounded img-small" src="assets/jorge-morin.jpg" alt="jorge-morin.jpg">
+                  </div>
                 </div>
+                <div class="row logos-row">
+                  <div class="col">
+                    <img class="logo" src="assets/nodejs.svg" alt="Node.js">
+                    <img class="logo" src="assets/spring-boot.svg" alt="Spring Boot">
+                    <img class="logo" src="assets/react.svg" alt="React">
+                    <img class="logo" src="assets/angular.svg" alt="Angular">
+                    <img class="logo" src="assets/github.svg" alt="GitHub">
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </section>
+          
+
+
 
         <div class="album py-5 bg-light">
             <div class="container">
@@ -92,23 +122,16 @@
                 <div class="row">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
+                            <img src="assets/rebudget-website.PNG" alt="rebudget-website.png" width="100%" height="225">
 
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text">Purpose of this application is to allow users to be able to see how
+                                    much their finances can impact their future retirement based on a variety of factors
+                                    that include location and age.</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                         <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
                                 </div>
                             </div>
                         </div>
@@ -177,7 +200,9 @@
     </footer>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
 
 
 </body>
