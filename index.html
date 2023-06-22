@@ -40,7 +40,17 @@
         .logo {
             width: 60px;
             height: 60px;
-            margin-right: 60px;
+            margin-right: 20px;
+        }
+
+        .logo-small {
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+        }
+
+        .card-buttons-link {
+            padding-right: 10px;
         }
     </style>
 
@@ -87,32 +97,29 @@
 
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
-              <div class="col-lg-6 col-md-8 mx-auto">
-                <div class="row">
-                  <div class="col-lg-6">
-                    <h1 class="fw-light">Jorge Morin</h1>
-                    <p class="lead text-muted">Multi-faceted Engineer with 3+ years of experience in Mechanical/Plumbing
-                      Engineering and Full Stack Software Development. Thrives in the software development world,
-                      passionate about solving complex problems through coding and collaborating with diverse teams to
-                      deliver successful projects.</p>
-                  </div>
-                  <div class="col-lg-6">
-                    <img class="img-fluid rounded img-small" src="assets/jorge-morin.jpg" alt="jorge-morin.jpg">
-                  </div>
+                <div class="col-lg-6 col-md-8 mx-auto">
+                    <div class="row">
+                        <h1 class="fw-light">Jorge Morin</h1>
+                        <p class="lead text-muted">Multi-faceted Engineer with 3+ years of experience in
+                            Mechanical/Plumbing
+                            Engineering and Full Stack Software Development. Thrives in the software development world,
+                            passionate about solving complex problems through coding and collaborating with diverse
+                            teams to
+                            deliver successful projects.</p>
+                    </div>
+                    <div class="row logos-row">
+                        <div class="col">
+                            <img class="logo" src="assets/angular.svg" alt="Angular">
+                            <img class="logo" src="assets/spring-boot.svg" alt="Spring Boot">
+                            <img class="logo" src="assets/react.svg" alt="React">
+                            <img class="logo" src="assets/nodejs.svg" alt="Node.js">
+                            <img class="logo" src="assets/github.svg" alt="GitHub">
+                        </div>
+                    </div>
                 </div>
-                <div class="row logos-row">
-                  <div class="col">
-                    <img class="logo" src="assets/nodejs.svg" alt="Node.js">
-                    <img class="logo" src="assets/spring-boot.svg" alt="Spring Boot">
-                    <img class="logo" src="assets/react.svg" alt="React">
-                    <img class="logo" src="assets/angular.svg" alt="Angular">
-                    <img class="logo" src="assets/github.svg" alt="GitHub">
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>
-          
+        </section>
+
 
 
 
@@ -120,22 +127,49 @@
             <div class="container">
 
                 <div class="row">
+
+
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="assets/rebudget-website.PNG" alt="rebudget-website.png" width="100%" height="225">
+                            <img src="assets/rebudget-website.PNG" alt="rebudget-website.png" width="100%" height="auto">
 
                             <div class="card-body">
-                                <p class="card-text">Purpose of this application is to allow users to be able to see how
-                                    much their finances can impact their future retirement based on a variety of factors
-                                    that include location and age.</p>
+                                <h4>Rebudget</h4>
+                                <p class="card-text">A budget application that allows users to see their future savings
+                                    based on current income, expenses, and age.</p>
+
+                                <!-- Skills Card -->
+                                <div class="col">
+                                    <div class="card shadow-sm">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Skills Used</h5>
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item"><img class="logo-small" src="assets/angular.svg" alt="Angular">Angular</li>
+                                                <li class="list-group-item"><img class="logo-small" src="assets/html.svg" alt="HTML">HTML/CSS</li>
+                                                <li class="list-group-item"><img class="logo-small" src="assets/typescript.svg" alt="Typescript">Typescript</li>
+                                                <li class="list-group-item"><img class="logo-small" src="assets/bootstrap.svg" alt="Bootstrap">Bootstrap</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                    <div class="btn-group pt-3">
+                                        <a class="card-buttons-link" href="https://github.com/jchicago98/rebudget-ui">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View on
+                                                Github</button>
+                                        </a>
+                                        <a href="https://jchicago98.github.io/personal-portfolio/">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Live
+                                                Version</button>
+                                        </a>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col">
                         <div class="card shadow-sm">
                             <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
